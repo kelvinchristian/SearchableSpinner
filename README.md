@@ -5,16 +5,16 @@ Just a View that mimics Android Spinner
 ### Install
 ```gradle
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 
 
 dependencies {
-	        implementation 'com.github.kelvinchristian:SearchableSpinner:1.1.2'
-	}
+	implementation 'com.github.kelvinchristian:SearchableSpinner:1.1.2'
+}
 ```
 
 ### SearchableSpinnerView

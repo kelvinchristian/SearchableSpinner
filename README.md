@@ -28,7 +28,6 @@ Add `SearchableSpinnerView` in your XML file.
 <com.kelvincodes.searchablespinnerview.SearchableSpinnerView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-       
         android:id="@+id/spinner"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -36,7 +35,7 @@ Add `SearchableSpinnerView` in your XML file.
         app:layout_constraintTop_toTopOf="parent" />
 ```
 
-Interface definition for a callback to be invoked when item clicked on popup.
+JAVA
 
 ```
         searchableSpinnerView = findViewById(R.id.seach);

@@ -1,3 +1,6 @@
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/kelvinchristian/SearchableSpinner/blob/master/LICENSE)
+
 # SearchableSpinner
 Just a View that mimics Android Spinner
 ## Getting Started
@@ -35,7 +38,7 @@ Add `SearchableSpinnerView` in your XML file.
         app:layout_constraintTop_toTopOf="parent" />
 ```
 
-JAVA
+### JAVA
 
 ```
         searchableSpinnerView = findViewById(R.id.seach);
